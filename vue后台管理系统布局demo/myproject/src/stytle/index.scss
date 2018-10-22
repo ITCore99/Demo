@@ -1,0 +1,18 @@
+.fll{
+  float:left;
+}
+.flr
+{
+  float:right;
+}
+.cleaFix::after
+{
+  content: '';
+  display: block;
+  width: 0;
+  height:0;
+  clear: both;
+}
+/***
+全局card
+*/
